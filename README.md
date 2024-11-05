@@ -22,9 +22,8 @@ Key Predictors Identified:
 - Blood-Based Biomarkers: Neurofilament light chain (NfL).
 
 ### Alzheimer’s Detection Model
-Using the identified minimal set of predictors, this model employs a Bidirectional LSTM architecture to analyze longitudinal patient data. It processes sequences over time, capturing temporal dependencies that are crucial for predicting Alzheimer’s progression. The detection model is trained to classify patients as either likely to have Alzheimer’s or not, based on these cost-effective predictors.
+This model employs a Bidirectional LSTM architecture to analyze longitudinal patient data. It processes sequences over time, capturing temporal dependencies that are crucial for predicting Alzheimer’s progression.
 
 Architecture:
 - Bidirectional LSTM Layers: Captures forward and backward temporal patterns in patient biomarker data.
-- Dense Layers with Dropout: Reduces overfitting and enhances generalizability.
 - Output Layer: Sigmoid activation for binary classification (Alzheimer’s vs. Normal).
