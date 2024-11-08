@@ -28,14 +28,14 @@ Architecture:
 
 ## Conclusions
 ### Cost-Effective Predictor Selection Model:
-- __Model Performance:__ The multinomial logistic regression model achieved a training set accuracy of 0.855, validation set accuracy of 0.830, and test set accuracy of 0.754. This represents the final model's ability to classify patients into different stages of Alzheimer's Disease based on the selected predictors.
-- __Cost vs. Accuracy Trade-off:__ The analysis revealed that while some predictor bundles (e.g., ECogPT and MMSE) did not significantly impact accuracy, others showed varied contributions. Genetic testing stood out as a cost-effective early-stage predictor, improving model accuracy by 0.025 with a relatively low cost.
-- __Predictor Importance:__ PET scans, despite their high cost, did not contribute significantly to predictive accuracy. On the other hand, ADAS provided a notable accuracy improvement (> 0.03) but was associated with higher costs due to late-stage detection.
+- __🛠️ Model Performance:__ The multinomial logistic regression model achieved a training set accuracy of 0.855, validation set accuracy of 0.830, and test set accuracy of 0.754. This represents the final model's ability to classify patients into different stages of Alzheimer's Disease based on the selected predictors.
+- __💵 Cost vs. Accuracy Trade-off:__ The analysis revealed that while some predictor bundles (e.g., ECogPT and MMSE) did not significantly impact accuracy, others showed varied contributions. Genetic testing stood out as a cost-effective early-stage predictor, improving model accuracy by 0.025 with a relatively low cost.
+- __🧬 Predictor Importance:__ PET scans, despite their high cost, did not contribute significantly to predictive accuracy. On the other hand, ADAS provided a notable accuracy improvement (> 0.03) but was associated with higher costs due to late-stage detection.
   
 ### Alzheimer’s Detection Model:
-- __Detection Accuracy__:The Bidirectional LSTM model captured forward and backward temporal dependencies in patient biomarker data, yielding an overall diagnostic accuracy of 93% for detecting Alzheimer's Disease progression.
-- __Robustness:__ The model's use of a diverse set of biomarkers, including neuroimaging and CSF data, contributed to its comprehensive evaluation capabilities, ensuring a balanced approach to disease prediction.
-- __Model Strengths:__ The model's architecture leveraged temporal data, allowing it to identify subtle changes over time that are critical for early detection and monitoring of Alzheimer's Disease. The bidirectional structure enhanced the model's capacity to learn from past and future data points in the sequence.
+- __📈 Detection Accuracy__:The Bidirectional LSTM model captured forward and backward temporal dependencies in patient biomarker data, yielding an overall diagnostic accuracy of 93% for detecting Alzheimer's Disease progression.
+- __🛡️ Robustness:__ The model's use of a diverse set of biomarkers, including neuroimaging and CSF data, contributed to its comprehensive evaluation capabilities, ensuring a balanced approach to disease prediction.
+- __⭐ Model Strengths:__ The model's architecture leveraged temporal data, allowing it to identify subtle changes over time that are critical for early detection and monitoring of Alzheimer's Disease. The bidirectional structure enhanced the model's capacity to learn from past and future data points in the sequence.
 
 ## Future Improvements 
 - __Expanded Feature Set:__ Include additional predictors such as lifestyle and environmental factors, cognitive test scores, and advanced imaging metrics to improve predictive power and better reflect the nature of Alzheimer's Disease.
