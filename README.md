@@ -1,4 +1,4 @@
-# Alzheimer's Disease Incidence Model
+# Alzheimer's Disease - Diagnostic Optimization
 
 ## Project Overview 
 
