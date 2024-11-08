@@ -33,7 +33,7 @@ Architecture:
 - __Predictor Importance:__ PET scans, despite their high cost, did not contribute significantly to predictive accuracy. On the other hand, ADAS provided a notable accuracy improvement (> 0.03) but was associated with higher costs due to late-stage detection.
   
 ### Alzheimer’s Detection Model:
--__Detection Accuracy__:The Bidirectional LSTM model captured forward and backward temporal dependencies in patient biomarker data, yielding an overall diagnostic accuracy of 93% for detecting Alzheimer's Disease progression.
+- __Detection Accuracy__:The Bidirectional LSTM model captured forward and backward temporal dependencies in patient biomarker data, yielding an overall diagnostic accuracy of 93% for detecting Alzheimer's Disease progression.
 - __Robustness:__ The model's use of a diverse set of biomarkers, including neuroimaging and CSF data, contributed to its comprehensive evaluation capabilities, ensuring a balanced approach to disease prediction.
 - __Model Strengths:__ The model's architecture leveraged temporal data, allowing it to identify subtle changes over time that are critical for early detection and monitoring of Alzheimer's Disease. The bidirectional structure enhanced the model's capacity to learn from past and future data points in the sequence.
 
